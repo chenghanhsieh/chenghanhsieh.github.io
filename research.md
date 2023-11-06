@@ -4,15 +4,31 @@ title: Research
 permalink: /research/
 ---
 
-## Research
+# Research
 
-### Red Giant Seismology
+## Topic#1: Initial Mass Function
+Mass is the most fundamental property of a star, as it determines its structure, evolution, and its fate. The Initial Mass Function (IMF), which describes the mass distribution of stars at the beginning of the main sequence phase, is the most important distribution in both stellar and galactic astrophysics. However, there is no current satisfactory theory for the origin of the IMF that can explain both the power-law tail at high masses and the mass at which the peak of the distribution occurs.
+### Research Highlight #1: Derived the first 2D Protostellar outflow rate maps
 Related Papers:
-[Christopher Lindsay, Joel Ong, and Sarbani Basu. 2022 (ApJ, 931:116) Mixed Mode Asteroseismology of Red Giant Stars Through the Luminosity Bump](https://ui.adsabs.harvard.edu/abs/2022ApJ...931..116L/abstract)
+[Hsieh Cheng-Han, Arce H.~G., Li Z.-Y., Dunham M., Offner S., +11 co-authors “The Evolution of Protostellar Outflow Cavities, Kinematics, and Angular Distribution of Momentum and Energy in Orion A: Evidence for Dynamical Cores” 2023, ApJ, 947, 25.](https://ui.adsabs.harvard.edu/abs/2023ApJ...947...25H/abstract)
 
-Asteroseismology is the study of oscillations in stars. So called ‘Solar-type’ oscillators have modes in two major categories, p-modes where the restoring force is pressure, and g-modes, where the restoring force is gravity (buoyancy). In this work we focused on red giant stars where p-modes oscillate in the outer convective envelope and g-modes oscillate in the radiative core. The two propagation regions are separated by a thin ‘forbidden’ region across which modes can couple, giving rise to mixed modes of g-like character in the core and p-like character in the outer envelope. 
-Since the coupling of core g-modes and envelope p-modes depends strongly on the details of the stellar interior structure near the convective boundary, observed dipolar mixed modes can be exploited to answer questions related to core/envelope mixing processes such as convective overshooting. Convective overshoot is the process by which convective fluid parcels overshoot their classical convective boundaries, powered by their own momentum. This leads to efficient extra mixing beyond the classical convective boundaries, effectively changing the convection zone size. 
-Using stellar model calculations, we showed in a recent paper (Lindsay et al., 2022) that changing how overshooting from red giant convective envelopes is modeled makes a significant difference in the asteroseismic properties of stars near the red giant branch luminosity bump. We will use these theoretical findings to guide additional research projects. See my conference website from the TESS Science Conference 2 meeting [here](https://christopher-lindsay.github.io/Lindsay_TSC2/)
+![NGCs](/assets/img/Outflows.png)
+
+Recent STARFORGE simulations show that protostellar outflows can disrupt the accretion flow
+around the protostar, allowing gas to fragment and additional stars to form, thereby setting the peak of the IMF to a value similar to that observed. Protostellar outflows are believed to be the main
+mechanism that helps disperse the envelope surrounding the protostar (protostellar core), terminate the infall phase, and set the final masses of stars. However, in observational studies of outflows, one major unsolved problem is that the measurements of outflow mass rate, outflow
+momentum rate, and outflow energy rate (hereafter, outflow rates), which are important for envelope
+dispersal, are uncertain and highly scattered. This resulted in conflicting results even in recent surveys.
+
+During my Ph.D., I investigated the widely used method of estimating outflow rates using a single
+dynamical time, spatially averaged over the whole outflow lobe, and found that it is unreliable. To better estimate outflow properties and their impact on their surrounding, I developed a new method, the Pixel Flux-tracing (PFT) technique to measure outflow mass, momentum, and energy ejection rates.
+The PFT technique allows us to compute two-dimensional molecular outflow instantaneous rate
+maps for the first time. Instead of a single value obtained by previous methods, these two-dimensional
+instantaneous rate maps contain spatial information on how the molecular outflow rates vary within the
+outflow cavity.
+
+Multiplying the outflow mass-loss rate with the duration of the protostellar phase, we found that by
+the end of the protostellar stage, the total mass removed by protostellar outflows is comparable to or even larger than the current mass of the gas surrounding the protostar (protostellar core). This implies that cores must have their mass constantly replenished by mass accretion from the larger scale. With the discovery of a high mass-loss rate from protostellar outflows, the detection of streamers and accretion flows, and evidence of core growth by accretion from the surroundings, raise doubts on the idea of cores as a well-defined mass reservoir. Thus, a well-defined precursor of the IMF is needed to determine the star formation process.
 
 
 ### Near-core Acoustic Glitches
