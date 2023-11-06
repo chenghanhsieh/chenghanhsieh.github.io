@@ -1,0 +1,481 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          // customised options
+          // • auto-render specific keys, e.g.:
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          // • rendering keys, e.g.:
+          throwOnError : false
+        });
+    });
+</script>
+
+
+    <title>Red Giant Seismology</title>
+
+<body class="landing">
+    
+<!-- Banner -->
+<section id="banner">
+    <h2>Red Giant Seismology: Seismic Signatures of Convective Overshoot</h2>
+    <h3>Christopher J. Lindsay<sup>1</sup>,   J. M. Joel Ong<sup>1</sup>,   Sarbani Basu<sup>1</sup></h3>
+    <h4>1. Yale University, Department of Astronomy </h4>
+</section>
+
+
+<br>
+<p style="margin-left: 40px"> Poster presented at <a href="https://tsc.mit.edu/2021/index.html" target="_blank"> TESS Science Conference 2 </a></p>
+<p style="margin-left: 40px"> PDF version of this poster available <a href="https://drive.google.com/file/d/1aWQ-n6IQPmiIfFEsHH6ygEOv3vkvA9Pa/view?usp=sharing" target="_blank"> here</a> 
+<br>
+
+</p><section id="one">
+    <div class="container">
+    <article>
+        <h3>Abstract</h3>
+        <div class="features">
+            <p style="margin-bottom:1cm;">
+                Most red giant models do not reproduce the position of 
+the observed luminosity bump, a diagnostic of the maximum extension of 
+the convective envelope during the first-dredge up. (see figure 1 based 
+on <a href="https://ui.adsabs.harvard.edu/abs/2018ApJ...859..156K/abstract" target="_blank"> Khan et al. 2014</a>)
+ Global seismic parameters, the large frequency separation and frequency
+ of maximum oscillation, show that overshoot below the convective 
+envelope helps match red giant model luminosity bump positions to 
+observed bump positions. The global seismic properties, however, cannot 
+be used to probe envelope overshoot in a star-by-star manner. The long 
+time series of Kepler and the TESS continuous viewing zones (CVZ) allow 
+us to determine the individual mode frequencies of many red giants and 
+these individual modes allow us to probe the internal structure of the 
+stars. Red giant mixed modes (modes that are p-like (i.e., acoustic 
+modes) at the surface and g-like (i.e., gravity modes) in the core) 
+contain important information about the interior structure of the star. 
+We present the results of a theoretical study to investigate the seismic
+ signature of convective overshoot in red giants. Our intention is to 
+use these signatures to determine the amount of overshoot needed to 
+model observed frequencies in red giants that have high quality seismic 
+data.
+            </p>
+            <p>
+                <!-- $$\text{\color{red} CHRIS: THIS IS JUST AN EXAMPLE; DELETE THIS BEFORE YOU GO LIVE\ \ \ \ }\boxed{\Delta\nu \sim \left( 2\int_{r_1}^{r_2} {\mathrm d r \over c_s}{1 \over \sqrt{1 - {\omega_\text{ac}^2 \over \omega^2}}}\right)^{-1} }$$ -->
+            </p>
+            <figure>
+                <img src="images/RGBbDiscrepancy-1.jpg"  style="float: left; margin: 5px 10px 5px 10px;" alt="" width="660" height="600">
+                <figcaption style="margin-bottom:38%;"> Figure 1 (left,)
+ shows the discrepancy between the position of the red giant branch 
+luminosity bump in red giant models (lines show <a href="https://ui.adsabs.harvard.edu/abs/2011ApJS..192....3P/abstract" target="_blank"> MESA</a>
+ evolutionary tracks for various mass, solar metallicity red giant 
+models) and the position of the red giant branch luminosity bump from 
+the overdensity of red giants observed in the <a href="https://ui.adsabs.harvard.edu/abs/2014ApJS..215...19P/abstract" target="_blank"> APOKASC</a> catalogue in a $\nu_\text{max}$ vs. temperature diagram. 
+            </figcaption>
+            </figure>
+    </div>
+    </article>
+    </div>
+ </section>
+<br>
+
+<section id="two">
+    <div class="container">
+    <article>
+        <h1>Motivation</h1>
+
+        <h3>Why Red Giant Seismology</h3>
+        <div class="features">
+            <p style="margin-bottom:1cm;">
+                Red giants are intrinsically very bright and can be seen
+ from extremely far distances with high signal to noise. Spaced based 
+photometry missions like CoRoT, Kepler, and TESS have observed tens of 
+thousands of oscillating red-giants stars as the cadence of their 
+observations is favorable for red giant oscillation mode detection. 
+
+
+                Individual mode parameters can be extracted from many 
+target stars with high quality photometric data. We would like to use 
+these individual modes to determine the input physical parameters for 
+stellar models, particularly convective overshoot, a phenomena that 
+occurs when convective parcels of fluid overshoot convective boundaries 
+due to their momentum. To study the effects of overshoot we employ 
+asteroseismology, a powerful tool which can probe stellar interiors.  
+            </p>
+        </div>      
+
+        <h3>Position of the Red Giant Branch Bump Changes With Envelope Overshoot</h3>
+        <div class="features">
+            <p style="margin-bottom:1cm;">
+                After a main sequence star exhausts its supply of 
+Hydrogen in the core, it is left with an inert Helium core surrounded by
+ a Hydrogen burning shell which is in turn surrounded by a cool, 
+convective envelope which swells greatly in size during the red giant 
+phase. A star can spend millions to a billion years evolving up the red 
+giant branch depending on its mass, decreasing in surface gravity as it 
+expands and becomes more luminous. An interesting and relevant section 
+of ascending red giant branch evolution is called the red giant branch 
+luminosity bump and appears as a zig-zag shape apparent in a red giant's
+ evolutionary track on the HR diagram. This luminosity bump occurs when 
+the deepening convection zone reaches down to the position of the 
+hydrogen burning shell. 
+
+                The position of the red giant bump in <a href="https://ui.adsabs.harvard.edu/abs/2011ApJS..192....3P/abstract" target="_blank"> MESA</a> models of varying masses do not match up with the overdensity of red giants observed in catalogs such as the <a href="https://ui.adsabs.harvard.edu/abs/2014ApJS..215...19P/abstract" target="_blank"> APOKASC</a> catalogue. Figures 1 and 2 show temperature on the $x$-axis and the frequency of maximum oscillation power ($\nu_\text{max}$ ) on the $y$-axis. $\nu_\text{max}$ is proportional to surface gravity which in turn is proportional to luminosity. Studies such as <a href="https://ui.adsabs.harvard.edu/abs/2018ApJ...859..156K/abstract" target="_blank"> Khan et al. 2014</a>
+ have claimed overshooting could potentially explain the red giant 
+branch bump discrepancy. 
+
+                Since the position of this red giant branch bump depends
+ on the deepening convection zone and therefore depends on how 
+convection is modeled, a thorough investigation into how modeling 
+convection changes red giant properties is necessary. 
+            </p>
+            <figure>
+                <img src="images/Overshoot_APO-1.jpg"  style="float: left; margin: 5px 10px 5px 10px;" alt="" width="660" height="600">
+                <figcaption style="margin-bottom:38%;">Figure 2 (left,) shows a similar $\nu_\text{max}$ vs. temperature diagram to figure 1 but now includes three <a href="https://ui.adsabs.harvard.edu/abs/2011ApJS..192....3P/abstract" target="_blank"> MESA</a>
+ models for a 1.4 solar mass and metallicity red giant with increasing 
+values of envelope overshoot. The higher step envelope overshoot pulls 
+down the position of the red giant branch bump to be more in line with 
+the observed overdensity in stars as observed by <a href="https://ui.adsabs.harvard.edu/abs/2014ApJS..215...19P/abstract" target="_blank"> APOKASC</a>. 
+                     
+            </figcaption>
+            </figure>
+    </div>
+    </article>
+    </div>
+ </section>
+<br>
+
+
+<section id="three">
+    <div class="container">
+    <article>
+        <h1>Methods</h1>
+        <h3><a href="https://ui.adsabs.harvard.edu/abs/2011ApJS..192....3P/abstract" target="_blank"> MESA</a> for Modelling Convection</h3>
+       
+                
+        <div class="features" style="text-align: left;">
+            <figure>
+                <img src="images/Overshoot_Mixing.png" style="float: right; margin: 5px 10px 5px 10px;" alt="">
+                <figcaption style="margin-bottom:1cm;">Figure 3 (right,)
+ shows a mixing efficiency versus radius diagram for a convective 
+boundary incorporating step overshoot. The mixing efficiency in the 
+convection zone, $D_\text{convective}$, is high and the mixing efficiency in the radiative zone, $D_\text{radiative}$,
+ is low. Step overshoot extends the convective, high mixing zone past 
+the convective envelope's boundary by a distance of a free parameter $f_\text{overshoot}$ times the pressure scale height at the boundary position. In step overshoot, the mixing efficiency in the overshoot region is $D_\text{overshoot} = D_\text{convective}$. 
+                     
+            </figcaption>
+            </figure>
+
+            <p style="margin-bottom:1cm;">
+            Stellar evolution codes like <a href="https://ui.adsabs.harvard.edu/abs/2011ApJS..192....3P/abstract" target="_blank"> MESA</a>
+ generally use a mixing length approximation to model convection. Mixing
+ length theory is analogous to the concept of mean free path in 
+thermodynamics where a fluid parcel will conserve its characteristics 
+for a certain “mixing length” before being incorporated with the 
+surrounding fluid. This means that within convection zones, the stellar 
+model is fully mixed (no change in element abundances) but no mixing 
+occurs outside of the convective zone boundaries. This is a rough 
+approximation and focusing on the convective boundaries, there should be
+ parcels of fluid overshooting the convective boundaries due to their 
+own momentum. This would mean an effective change in the position of the
+ convective boundaries and how much overshooting there is across 
+boundaries is an important unknown input parameter in stellar modeling. 
+Overshoot in <a href="https://ui.adsabs.harvard.edu/abs/2011ApJS..192....3P/abstract" target="_blank"> MESA</a>  is treated as overmixing and the code includes two options, step overshoot and exponential overshoot. 
+            </p>
+           
+            <p style="margin-bottom:1cm;"> These two overshoot modeling 
+methods change the mixing efficiency versus interior mass profile of a 
+stellar model in two slightly different ways and for this poster, we 
+focus on the effects of step envelope overshoot. Step overshoot extends 
+the convective, high mixing zone past the convective envelope's boundary
+ by a distance of a free parameter $f_\text{overshoot}$ times the pressure scale height at the boundary position as shown in figure 3. 
+            </p>
+            <p style="margin-bottom:3cm;">To investigate the effect of different overshoot values, we made stellar models using the evolution code <a href="https://ui.adsabs.harvard.edu/abs/2011ApJS..192....3P/abstract" target="_blank"> MESA</a>
+ which solves the fully coupled structure and composition equations 
+simultaneously. 
+                
+            NOTE: Core overshoot is also important in the main sequence 
+evolution of a star but since the cores of red giants aren’t convective,
+ core overshoot manifests as a fossil signature from the main sequence. 
+In future work though, we will look into the signatures of core 
+overshoot. 
+            </p> 
+    </div>
+    </article>
+    </div>
+ </section>
+<br>
+
+
+
+<section id="four">
+    <div class="container">
+    <article>
+        <h3>Mixed Modes</h3>
+        <div class="features">
+            <figure>
+                <img src="images/Propagation_ms-1.jpg"  style="float: left; margin: 5px 10px 5px 10px;" alt="" width="660" height="520">
+                <img src="images/Propagation_rgb-1.jpg"  style="float: right; margin: 5px 10px 5px 10px;" alt="" width="660" height="520">
+                <figcaption style="margin-bottom:1cm;">Figure 4 (above,) shows a propagation diagram with Brunt–Väisälä (solid line) or Lamb (dotted line) frequency in units of $\nu_\text{max}$
+ on the $y$-axis and fractional radius on the $x$-axis for a 1 solar mass 
+and metallicity stellar model before the red giant branch (left hand 
+side) and during the red giant branch (right hand side.) The cavity in 
+frequency/radius space where p-modes can propagate is highlighted in 
+orange and the g-mode cavity is highlighted in blue. 
+                     
+            </figcaption>
+            </figure>
+
+
+        </div>
+
+        <div class="features">
+            <p style="margin-bottom:1cm;">
+                The asteroseismic pulsations visible on the photospheres
+ of stars by missions like Kepler are produced by standing waves 
+traveling inside the star. Waves where the restoring force is pressure 
+are called p modes and can only exist with frequencies above two 
+characteristic frequencies called the Lamb frequency and the 
+Brunt–Väisälä frequency. 
+                On the other hand, waves where the restoring force is 
+buoyancy are called gravity modes or g modes and exist with frequencies 
+below the Lamb and Brunt–Väisälä frequencies. In regions of a star where
+ the Brunt–Väisälä frequency is imaginary, the stellar fluid is unstable
+ to convection and we have a convection zone. The effective position of 
+the convection zone is changed with the implementation of envelope 
+overshoot. 
+            </p>
+            
+            <p style="margin-bottom:3cm;">
+                Between the g and p mode cavities is a classical 
+forbidden region where both g mode and p mode oscillations are damped 
+exponentially. This forbidden region is wide in main sequence stars (see
+ left hand figure above) but as a star evolves into a red giant, the p 
+and g mode cavities close in towards each other and modes in each cavity
+ can couple to each other giving rise to mixed modes (see right figure 
+above.) 
+
+            </p>
+            
+    </div>
+    </article>
+    </div>
+ </section>
+<br>
+
+
+<section id="five">
+    <div class="container">
+    <article>
+        <h1>Effects of Step Envelope Overshoot</h1>
+        <h3>Structural Changes</h3>
+        <div class="features">
+            <figure>
+                <img src="images/AbundancesAnimation.gif" style="float: left; margin: 5px 10px 5px 10px;" alt="" width="660">
+                <img src="images/BrunVaisalaAnimation.gif" style="float: right; margin: 5px 10px 5px 10px;" alt="" width="660">
+                <figcaption style="margin-bottom:1cm;">Figure 5 (above,)
+ shows two animations showing how the abundance profiles (left) and 
+Brunt–Väisälä frequency profiles (right) evolve differently up the red 
+giant branch for 1.4 solar mass stellar models with solar metallicity 
+and different amounts of step envelope overshoot. The upper left 
+abundance profile animation shows the Hydrogen abundance (solid lines) 
+and Helium abundance (dashed lines) as a function of stellar radius. 
+Note the abundance profiles are horizontal in the convection zone and 
+models with higher amounts of step envelope overshoot have deeper 
+convection zones at a given value of $\log g$. The difference between 
+abundance profile also means that the Brunt–Väisälä frequency profiles 
+(right animation) for red giant models with different overshoot values 
+will be slightly different since the profile bump signature of the first
+ dredge up changes location based on different values of the step 
+overshoot parameter $f$. 
+            </figcaption>
+            </figure>
+                
+        </div>
+    </article>
+    </div>
+ </section>
+<br>
+
+
+<section id="six">
+    <div class="container">
+    <article>
+        <h3>Oscillation Mode Properties</h3>
+        <div class="features">
+            <figure>
+                <img src="images/period_plot_before_bump-1.jpg"  style="float: left; margin: 5px 10px 5px 10px;" alt="" width="660" height="520">
+                <img src="images/period_plot_after_bump-1.jpg"  style="float: right; margin: 5px 10px 5px 10px;" alt="" width="660" height="520">
+                <figcaption style="margin-bottom:1cm;">Figure 6 (above,)
+ shows two period spacing versus frequency plots for 1.4 solar mass 
+models with solar metallicity and different amounts of step envelope 
+overshoot. Red giant mode frequencies are generally equally spaced in 
+period so it is informative to plot the period difference between 
+consecutive modes as a function of frequency. The oscillation mode 
+frequencies for our models were calculated with the stellar oscillation 
+code <a href="https://ui.adsabs.harvard.edu/abs/2013MNRAS.435.3406T/abstract" target="_blank"> GYRE</a>.
+ The upper left hand figure shows pairwise period difference versus mode
+ frequency for $\log g = 3.0$ and the upper right hand figure shows the 
+same for $\log g = 2.6$ red giant models. 
+                     
+            </figcaption>
+            </figure>
+        </div>
+        <div class="features">
+            <p style="margin-bottom:3cm;">
+                At $\log g = 3.0$, none of the different overshoot red 
+giant models have gone through the red giant branch luminosity bump and 
+therefore the period spacing versus mode frequency plots match up 
+between models of different overshoot. On the other hand, at $\log g = 
+2.6$, the $f = 0.6$ overshoot model has gone through the red giant branch 
+luminosity bump, resulting in a significant decrease in the median value
+ of the period spacing. Clearly, at a given value of $\log g$, red giant 
+models with different overshoot values have significantly different 
+oscillation properties especially around the red giant branch luminosity
+ bump. 
+            </p>
+        </div>
+    </article>
+    </div>
+ </section>
+<br>
+
+
+<section id="seven">
+    <div class="container">
+    <article>
+        <h3>Period Echelle Diagram Evolution</h3>
+        <div class="features">
+            <figure>
+                <img src="images/Step_overshoot_period_echelle.gif" style="float: left; margin: 5px 10px 5px 10px;" alt="" width="660">
+                <figcaption style="margin-bottom:3cm;"> Figure 7 (left,)
+ shows period echelle diagrams with mode period modulo period spacing 
+on the x axis and frequency on the y axis for 1.4 solar mass red giant 
+models with solar metallicity and different overshoot $f$ values. In this 
+work, the period spacing was found for each red giant model of different
+ $\log g$ and overshoot $f$ seperately using a least squares method to find 
+the period spacing which best vertically alligns the section of the 
+period echelle diagram. The animation shows the period echelle diagrams 
+for the different red giant models as the models evolve up the red giant
+ branch and past the luminosity bump. The echelle diagrams looks normal 
+at high $\log g$ when all the models are below the luminosity bump. The 
+diagram then becomes complicated with glitch signatures as each model 
+moves through the luminosity bump, but returns to the normal state again
+ after that. The highest overshoot model goes through the bump first and
+ the one with no overshoot is the last to go through the bump. 
+                    
+            </figcaption>
+            </figure>
+        </div>
+    </article>
+    </div>
+ </section>
+<br>
+
+
+
+<section id="eight">
+    <div class="container">
+    <article>
+         $\mathbf{\epsilon_g}$, <strong>GRAVITY OFFSET EVOLUTION</strong> 
+        <div class="features">
+            <figure>
+                <img src="images/epsilon_g_evolution-1.jpg"  style="float: left; margin: 5px 10px 5px 10px;" alt="" width="660" height="520">
+                <figcaption style="margin-bottom:1cm;"> Figure 8 (left,) shows the evolution of the $\epsilon_g$
+ (gravity offset) values for different overshoot 1.4 solar mass, solar 
+metallicity red giant models at different evolutionary states along the 
+red giant branch. 
+                    
+            </figcaption>
+            </figure>
+
+
+        </div>
+
+        <div class="maths">
+            <p style="margin-bottom:3cm;" class="maths">
+
+            In this work, we consider that the dipole gravity modes follow the asymptotic comb-like pattern given by <a href="https://ui.adsabs.harvard.edu/abs/2018A%26A...618A.109M/abstract" target="_blank"> Mosser et. al. 2018</a>. This way, since <a href="https://ui.adsabs.harvard.edu/abs/2013MNRAS.435.3406T/abstract" target="_blank"> GYRE</a>  gives the g-mode radial order, n<sub>g</sub>, we can find the $\epsilon_g$
+ (gravity offset) values for the different overshoot red giant models at
+ different evolutionary states along the red giant branch. Plotting the 
+evolution of $\epsilon_g$ gives the figure on the right where we can see that the values of $\epsilon_g$
+ for different overshoot red giant models start at about the same point 
+at $\log g = 2.7$, before any of the models have gone throught the red 
+giant branch luminoisty bump. As the red giant models approach the 
+luminosity bump, $\epsilon_g$ decreases steadily then spikes up before 
+returning to a steady state. The highest overshoot model goes through 
+the bump first and the model with no overshoot goes through the bump 
+last and we can see the $\epsilon_g$ value for the higher overshoot 
+models fall first, then returns to a steady state first. Note that in 
+actual observations, when the radial order of the g-mode is not known, 
+the gravity offset parameter is only known to mod 1 but this $\epsilon_g$ behavior of falling near the luminosity bump then returning to a steady value could still be detected.  
+            </p>
+    </div>
+    </article>
+    </div>
+ </section>
+<br>
+
+
+<section id="nine">
+    <div class="container">
+    <article>
+         <h3>Final Comments </h3>
+
+        <div class="features">
+            <p style="margin-bottom:1.5cm;">
+                In this poster we have shown that different amounts of 
+step envelope overshoot, as modelled in the stellar evolution code <a href="https://ui.adsabs.harvard.edu/abs/2011ApJS..192....3P/abstract" target="_blank"> MESA</a>,
+ has an important effect on the internal structure of red giant stars. 
+Due to this internal structure dependence, the oscillation properties of
+ the red giant also change which is apparent after calculating the 
+oscillation modes of the stellar model using <a href="https://ui.adsabs.harvard.edu/abs/2013MNRAS.435.3406T/abstract" target="_blank"> GYRE</a>. Using the oscillation mode data, we show period spacing diagrams, period echelle diagrams, and an $\epsilon_g$
+ evolution plot which show that at a given value of $\log g$, red giant 
+models evolved with different amounts of step envelope overshoot show 
+different asteroseismic observables. These differences are related to 
+the evolutionary state of the model before, during, or after the red 
+giant luminosity bump and viewing where the red giant branch luminoisty 
+bump is located (through $\epsilon_g$ observations or through searching
+ for H-R diagram overdensities in red giant catalouges) can tell us 
+about how much envelope overshooting should be incorporated in red giant
+ models.  
+            </p>
+    </div>
+    </article>
+    </div>
+ </section>
+<br>
+
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="inner">
+        <h3><a href="mailto: christopher.lindsay@yale.edu" target="_blank"> Mail: christopher.lindsay@yale.edu
+        </a> </h3>
+
+        <h3><a href="https://www.linkedin.com/in/christopher-lindsay-0a3aa013b/" target="_blank"> Linkedin </a></h3>
+
+        <br>
+        <h3><a href="https://www.universetoday.com/146981/1-in-10-red-giants-are-covered-in-spots-and-they-rotate-surprisingly-quickly/" target="_blank"> Header Image Credit </a></h3>
+    </div>
+</footer>
+
+
+
+
+
+
+</body></html>
