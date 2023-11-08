@@ -5,11 +5,14 @@ permalink: /pictures/
 ---
 
 ## Photos
-<img class='dog_image' src="/assets/img/Dogs2.jpg" alt="Picture with my dogs."/>
-<img class='dog_image' src="/assets/img/Keck.jpg" alt="Picture of me on Mauna Kea with the Keck Telescopes."/>
-<img class='dog_image' src="/assets/img/USC.JPG" alt="USC graduation picture."/>
-<img class='dog_image' src="/assets/img/Yale_cold.jpg" alt="Picture of me at the Yale Astronomy Department."/>
-
+<img class='dog_image' src="/assets/img/Me1.jpg" alt="Picture of me hiking around Carlsbad Caverns National Park, New Mexico."/>
+<img class='dog_image' src="/assets/img/Me_vocano.jpg" alt="Picture of me stading in front of a volcano with lava, Iceland."/>
+<img class='dog_image' src="/assets/img/Me_poster.jpg" alt="Picture of me and my poster on the top of Mt. Nuoljia (1169m) in the Arctic circle, Abisko National Park, Northern Sweden during the Midnight Sun."/>
+<img class='dog_image' src="/assets/img/Me_NewHavenRace.JPG" alt="Me running 20k New Haven road race."/>
+<img class='dog_image' src="/assets/img/Palomar2.jpg" alt="Palomar Observatory."/>
+<img class='dog_image' src="/assets/img/Palomar3.jpg" alt="Me Observering at the Palomar Observatory."/>
+<img class='dog_image' src="/assets/img/My_year.jpg" alt="Yale Astronomy graduate students (my year)."/>
+<img class='dog_image' src="/assets/img/cat.jpg" alt="My Cat, Sylvia."/>
 
 
 [back](../)
