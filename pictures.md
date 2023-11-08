@@ -20,7 +20,7 @@ Me observering at the Palomar Observatory.
 Yale Astronomy graduate students (my year).
 <img class='dog_image' src="/assets/img/My_year.png" alt="Yale Astronomy graduate students (my year)."/>
 My Cat, Sylvia.
-<img class='dog_image' src="/assets/img/Cat.png" alt="My Cat, Sylvia."/>
+<img class='dog_image' src="/assets/img/Cat.png" alt="My Cat, Sylvia (adopted from Meow Haven Cat Cafe)."/>
 
 
 [back](../)
