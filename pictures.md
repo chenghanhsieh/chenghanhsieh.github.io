@@ -9,7 +9,7 @@ Picture of me hiking around Carlsbad Caverns National Park, New Mexico.
 <img class='dog_image' src="/assets/img/Me1.jpg" alt="Picture of me hiking around Carlsbad Caverns National Park, New Mexico."/>
 Picture of me stading in front of a volcano with lava, Iceland.
 <img class='dog_image' src="/assets/img/Me_volcano.jpg" alt="Picture of me stading in front of a volcano with lava, Iceland."/>
-Picture of me and my poster on the top of Mt. Nuoljia (1169m) in the Arctic circle, Abisko National Park, Northern Sweden during the Midnight Sun.
+Picture of me and my poster on the top of Mt. Nuoljia (1169m) in the Arctic circle, Abisko National Park, Northern Sweden under the Midnight Sun.
 <img class='dog_image' src="/assets/img/Me_poster.jpg" alt="Picture of me and my poster on the top of Mt. Nuoljia (1169m) in the Arctic circle, Abisko National Park, Northern Sweden under the Midnight Sun."/>
 Me running 20k New Haven road race.
 <img class='dog_image' src="/assets/img/Me_NewHavenRace.jpg" alt="Me running 20k New Haven road race."/>

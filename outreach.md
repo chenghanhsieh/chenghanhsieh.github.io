@@ -39,6 +39,44 @@ Besides making learning opportunities for radio astronomy more accessible to the
 Through my service, teaching, and research, I am committed to making the field a more welcoming space for scholars from marginalized communities, and I look forward to continuing this work as a postdoctoral researcher in the future. 
 
 
+## Media and Interview
+<li> The New York Times, “The Interstellar Comet Has Arrived in Time for the Holidays” <a href="https://www.nytimes.com/2019/12/07/science/interstellar-comet-2i-borisov.html"> News Link </a></li>
+
+<li> W Radio Colombia: “Cometa Borisov, el objeto de otro sistema solar que pasará por la tierra” <a href="https://www.wradio.com.co/noticias/tecnologia/cometa-borisov-el-objeto-de-otro-sistema-solar-que-pasara-por-la-tierra/20191207/nota/3988465.aspx"> News Link </a></li>
+
+<li> Yale Daily News, “New image offers close-up view of interstellar comet” <a href="https://astronomy.yale.edu/news/new-image-offers-close-view-interstellar-comet"> News Link </a></li>
+
+<li> SCI News, “Astronomers Capture New Image of Interstellar Comet 2I/Borisov” <a href="https://www.sci.news/astronomy/lris-image-interstellar-comet-2i-borisov-07845.html"> News Link </a></li>
+
+<li> Bangkok Post, “Interstellar comet arriving in time for New Year” <a href="https://www.bangkokpost.com/world/1812699/interstellar-comet-arriving-in-time-for-new-year"> News Link </a></li>
+
+<li> Fox News, “Interstellar comet Borisov spotted in new image, has 'ghostly' appearance” <a href="https://www.foxnews.com/science/interstellar-comet-borisov-new-image-ghostly-appearance"> News Link </a></li>
+
+<li> Keck Observatory News, “New Image Offers Close-Up View Of Interstellar Comet” <a href="https://www.keckobservatory.org/comet-borisov/"> News Link </a></li>
+
+<li> UPI News, “Hawaiian observatory captures closeup of interstellar comet” <a href="https://www.upi.com/Science_News/2019/11/27/Hawaiian-observatory-captures-closeup-of-interstellar-comet/6851574873101/"> News Link </a></li>
+
+<li> Universe Today News, “Interstellar Comet Borisov is About to Make its Closest Approach to Earth” <a href="https://www.universetoday.com/144195/interstellar-comet-borisov-is-about-to-make-its-closest-approach-to-earth/"> News Link </a></li>
+
+<li> Science Alert News, “Astronomers Reveal Stunning New Image of The Interstellar Comet Coming Towards Us” <a href="https://www.sciencealert.com/stunning-pic-of-first-detected-interstellar-comet-reveals-a-pale-ghost-headed-our-way"> News Link </a></li>
+
+<li> Astronomy Now, “Interstellar Comet 2I/Borisov sports 160,000-kilometre-long tail” <a href="https://astronomynow.com/2019/11/27/interstellar-visitor-2i-borisov-sports-160000-kilometre-long-tail/"> News Link </a></li>
+
+<li> The Science Times, “Interstellar Comet 2I/Borisov Appears Ghostly in New Images Captured” <a href="https://www.sciencetimes.com/articles/24354/20191204/interstellar-comet-2i-borisov-borisov-comet.htm"> News Link </a></li>
+
+
+<li> Daily Express (UK), “Space photo: Solar System’s second interstellar visitor comet Borisov unveiled” <a href="https://www.express.co.uk/news/science/1210347/space-photo-solar-system-interstellar-comet-borisov-photo"> News Link </a></li>
+
+
+<li> CNET News, “Interstellar comet Borisov, visiting from deep space, makes a historic flyby” <a href="https://www.cnet.com/science/interstellar-comet-borisov-visiting-from-deep-space-makes-a-historic-flyby/"> News Link </a></li>
+
+<li> Digitaltrends, “Astronomers capture the best images yet of the Borisov interstellar comet” <a href="https://www.digitaltrends.com/space/new-images-interstellar-comet-borisov/"> News Link </a></li>
+
+<li> Mashable India, “Astronomers Release New Close-Up Image Of An Interstellar Comet Coming Towards Earth” <a href="https://in.mashable.com/science/8946/astronomers-release-new-close-up-image-of-an-interstellar-comet-coming-towards-earth"> News Link </a></li>
+
+<li> EarthSky.org , “Interstellar object closest to the sun today” <a href="https://earthsky.org/space/2nd-interstellar-object-2i-borisov-closest-to-earth-sun/"> News Link </a></li>
+
+
 <!-- <li>TEDx USC talk (March 25th 2022, University of Southern California) <a href="{{ site.tedx }}"> Youtube Link </a></li>
 
 
