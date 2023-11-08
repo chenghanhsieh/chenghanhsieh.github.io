@@ -5,11 +5,7 @@ permalink: /outreach/
 ---
 
 ## Diversity, Equity, and Inclusion (DEI)
-
-
 <!-- <img class='dog_image' src="./assets/img/Tedx.jpg" alt="Picture with my Dogs."/> -->
-
-<ul>
 
 I have constantly reminded myself it is a great privilege to learn the things I love. Outside the classroom, I am a learner, a risk-taker, and an education activist. As a child who grew up in multiple countries and studied in Indonesia for high school, I've interacted with diverse cultures and witnessed firsthand the impacts of poverty and discrimination. My upbringing cemented my dedication to promoting equal opportunities for all.
 
@@ -40,6 +36,8 @@ Through my service, teaching, and research, I am committed to making the field a
 
 
 ## Media and Interview
+<ul>
+
 <li> The New York Times, “The Interstellar Comet Has Arrived in Time for the Holidays” <a href="https://www.nytimes.com/2019/12/07/science/interstellar-comet-2i-borisov.html"> News Link </a></li>
 
 <li> W Radio Colombia: “Cometa Borisov, el objeto de otro sistema solar que pasará por la tierra” <a href="https://www.wradio.com.co/noticias/tecnologia/cometa-borisov-el-objeto-de-otro-sistema-solar-que-pasara-por-la-tierra/20191207/nota/3988465.aspx"> News Link </a></li>
