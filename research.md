@@ -85,6 +85,11 @@ Additionally, I led a large international team as the PI for the ALMA and Green 
 ### Research Highlight #6: Testing a new method (Velocity Gradient Technique) to measure the Magnetic Field Morphology in the Presence of CO Self-absorption
 
 Related Papers: [Hsieh Cheng-Han, Hu Y., Lai S.-P., Yuen K.~H., Liu S.-Y., Hsieh I.-T., Ho K.~W., et al., “Tracing magnetic field morphology using the velocity gradient technique in the presence of co selfabsorption” 2019, ApJ, 873, 16.](https://ui.adsabs.harvard.edu/abs/2019ApJ...873...16H/abstract)
-![Disk Substructure](/assets/img/Disk.png)
+![VGT](/assets/img/VGT.png)
+
+
+Probing magnetic fields in self-gravitating molecular clouds is generally difficult, even with the use of polarimetry. Based on the properties of magnetohydrodynamic turbulence and turbulent reconnection, the velocity gradient technique (VGT) provides a new way of tracing magnetic field orientation and strength based on spectroscopic data. Our study tests the applicability of VGT in various molecular tracers, e.g., 12CO, 13CO, and C18O. By inspecting synthetic molecular-line maps of CO isotopologs generated through radiative transfer calculations, we show that the VGT can be successfully applied in probing the magnetic field direction in the diffuse interstellar medium, as well as in self-gravitating molecular clouds.
+
+
 
 [back](../)
