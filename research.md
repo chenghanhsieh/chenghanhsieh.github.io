@@ -33,6 +33,7 @@ the end of the protostellar stage, the total mass removed by protostellar outflo
 
 ### Research Highlight #2: Develop a new method to measure the Protostellar Mass Function
 Related Papers: Hsieh et al. in prep.
+![Jets](/assets/img/Jets.png)
 
 Research Highlight #2: Develop a new method to measure the Protostellar Mass Function
 During my Ph.D., I tackled the challenge of measuring the protostellar mass function (PMF), a theoretical construct that has yet to be measured [18, 19]. Traditional mass measuring methods relying on fitting a Keplerian rotation curve in circumstellar disks are impractical for building a sufficient PMF sample size in a reasonable amount of telescope time. To overcome this, I devised a novel approach using protostellar jets to estimate the PMF for protostars.
@@ -53,6 +54,7 @@ between circumstellar disk properties and the primordial conditions of planetary
 
 ### Research Highlight #4: The first high-resolution (< 18au) statistical study of disk substructures in young Class 0/I systems (age < 2Myr)
 Related Papers: Hsieh et al. in prep. (CAMPOS Data paper)
+![Disk Substructure](/assets/img/Disk.png)
 
 I am also leading the CAMPOS continuum projects—an ALMA high-resolution (0.1”)
 continuum survey of the Class 0/I and flat-spectrum sources in seven nearby molecular clouds [2, 25].
@@ -62,6 +64,13 @@ structures are indeed triggered by planets, our findings also shed light on the 
 ## Topic#3: Interstellar Objects
 
 ### Research Highlight #5: The origin of the first Interstellar Object ‘Oumuamua
+Related Papers:
+[Hsieh Cheng-Han, Laughlin G., Arce H.~G., "Evidence that ‘Oumuamua is the ~45 Myr-old product
+of a Molecular Cloud" 2021, ApJ, 917, 20.](https://ui.adsabs.harvard.edu/abs/2021ApJ...917...20H/abstract)
+
+![Oumuamua](/assets/img/Oumuamua.png)
+Image Credit: European Southern Observatory / M. Kornmesser
+
 The 2017 discovery of the first interstellar object 'Oumuamua fascinated the scientific community, primarily due to its unique attributes such as its elongated shape, unusual brightness variations, and the absence of infrared heat emission as detected by the Spitzer Space Telescope. Adding to the mystery was its significant non-gravitational acceleration.
 
 In an effort to unravel the origins of 'Oumuamua, I delved into its Galactic trajectory. Intriguingly, this trajectory intersected with our solar system at its maximum deviation relative to the Galactic plane, closely mirroring the paths of neighboring young stellar associations. Employing F-type stars data from Gaia DR2 for comparative analysis, I estimated 'Oumuamua's age to be around 35 million years. Further comparisons with nearby moving groups affirmed its congruence with the Carina (CAR) and Columba (COL) moving group, estimated to be approximately 30 million years old. Monte Carlo simulations involving the CAR association revealed that each known star within it would need to eject a mass of approximately 500 Jupiter masses to match the implied number density of interstellar objects detected by Pan-STARRS. This ejection figure is three orders of magnitude higher than the solar system’s planetesimal disk, a contrast that challenges the disk ejection theory. Our analysis, therefore, lends weight to the hypothesis that ‘Oumuamua is a free-floating cloud by-product that originated in the molecular clouds that gave rise to the Carina or Columba associations about 45 Myr ago.
