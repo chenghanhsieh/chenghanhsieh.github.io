@@ -20,5 +20,5 @@ I come from Taiwan, and have studied in many countries (Taiwan, Hong Kong, Indon
 As a child who grew up in multiple countries and studied in Indonesia for high school, I've interacted with diverse cultures. I am passionate about research, teaching, and outreach, and is interested in promoting equal opportunities for all. See my [Outreach and Services]({% link outreach.md%}) for more information.
 
 
-Feel free to contact me at cheng-han.hsieh@utexas.edu
+Feel free to contact me at chenghan.hsieh@utexas.edu
 
